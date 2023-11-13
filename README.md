@@ -40,6 +40,10 @@ This project is a speed typing game where the user types the words given on the 
 ### Classes
 
 - << You should have a list of each of your classes with a description >>
+class main. THis is the start of the screen and uses the other classes to run the game.
+class timer. This is the timer in the game.
+class keyboard. THis is where the it reads the user typing.
+Class calculating. THis is where it calculated the user speed.
 
 ## ATP
 
