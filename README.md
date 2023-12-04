@@ -46,5 +46,51 @@ class keyboard. THis is where the it reads the user typing.
 Class calculating. THis is where it calculated the user speed.
 
 ## ATP
+Program: Typewriter Game
+
+Test Case 1: Typing Accuracy
+
+Test Description: Verify that typed characters appear accurately on the screen.
+Test Steps:
+Start the game.
+Type a sequence of characters.
+Verify that each typed character appears correctly on the screen.
+Expected Outcome: Typed characters should accurately appear on the screen without errors or omissions.
+
+Test Case 2: Typing Speed
+
+Test Description: Test the game's ability to measure typing speed.
+Test Steps:
+Start the game.
+Type a given passage within a specified time limit.
+Verify that the game accurately records the number of characters typed per minute (CPM).
+Expected Outcome: The game should measure typing speed by accurately calculating CPM within the set time limit.
+
+Test Case 3: Error Tracking
+
+Test Description: Confirm that the game tracks typing errors.
+Test Steps:
+Start the game.
+Intentionally make typing errors while entering a passage.
+Verify that the game detects and displays the number of errors made.
+Expected Outcome: The game should track and display the number of typing errors made during gameplay.
+
+Test Case 4: Progression and Levels
+
+Test Description: Ensure that the game progresses through levels correctly.
+Test Steps:
+Start the game.
+Complete a level by typing the given passage within the time limit.
+Verify that the game progresses to the next level or displays a level completion message.
+Expected Outcome: The game should smoothly progress to the next level upon successful completion of the current level.
+
+Test Case 5: User Interface and Navigation
+
+Test Description: Test the usability of the game's user interface and navigation.
+Test Steps:
+Start the game.
+Navigate through menus (Start Game, Options, High Scores, Quit).
+Verify that each option is selectable and leads to the expected actions.
+Expected Outcome: The game's menus should be navigable, and options should function as intended.
 
 
