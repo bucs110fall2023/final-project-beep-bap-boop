@@ -11,8 +11,6 @@ class MonkeyTypeGame:
         self.FONT_SIZE = 36
         self.FONT = pygame.font.Font(None, self.FONT_SIZE)
 
-        # ... (other constants and variables)
-
         # Variables
         self.current_phrase = ""
         self.input_text = ""
