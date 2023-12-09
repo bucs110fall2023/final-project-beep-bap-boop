@@ -31,19 +31,19 @@ This project is a speed typing game where the user types the words given on the 
 
 ### Features
 
-1. << Feature 1 >> Start menu is the screen where everything resets with an updated score if played before.
-2. << Feature 2 >> Timer is where there is a timer counting down when the game starts
-3. << Feature 3 >> Keyboard is the output of the player typing and it shows on the screen whether they have type the word correctly if not it will show red and not continue until they type the word right.
-4. << Feature 4 >> Calculating speed of the user speed. This feature calculates how fast the user type in mph.
-5. << Feature 5 >> Game over screen. This is when the timer stops and shows the result of the user typing speed and ask the user if they want to play again.
+1. Start menu is the screen where everything resets with an updated score if played before.
+2. Timer is where there is a timer counting down when the game starts
+3. Keyboard is the output of the player typing and it shows on the screen whether they have type the word correctly if not it will show red and not continue until they type the word right.
+4. Calculating speed of the user speed. This feature calculates how fast the user type in mph.
+5. Game over screen. This is when the timer stops and shows the result of the user typing speed and ask the user if they want to play again.
 
 ### Classes
 
 - << You should have a list of each of your classes with a description >>
-class main. THis is the start of the screen and uses the other classes to run the game.
-class timer. This is the timer in the game.
-class keyboard. THis is where the it reads the user typing.
-Class calculating. THis is where it calculated the user speed.
+Main. This is the start of the screen and uses the other classes to run the game.
+Timer. This is the timer in the game.
+Keyboard. This is where the it reads the user typing.
+Calculating. This is where it calculated the user speed.
 
 ## ATP
 Program: Typewriter Game
