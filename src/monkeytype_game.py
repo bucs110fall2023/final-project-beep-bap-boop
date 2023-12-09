@@ -4,14 +4,12 @@ import time
 
 class MonkeyTypeGame:
     def __init__(self):
-        # Constants
         self.WIDTH, self.HEIGHT = 1000, 600
         self.WHITE = (255, 255, 255)
         self.BLACK = (0, 0, 0)
         self.FONT_SIZE = 36
         self.FONT = pygame.font.Font(None, self.FONT_SIZE)
 
-        # Variables
         self.current_phrase = ""
         self.input_text = ""
         self.words_typed = 0
@@ -23,12 +21,10 @@ class MonkeyTypeGame:
 
         self.generate_new_phrase()
 
-        # Timing variables
         self.start_time = time.time()
-        self.time_limit = 60  # in seconds
+        self.time_limit = 60  
         self.start_game_time = time.time()
 
-        # Pygame setup
         self.window = pygame.display.set_mode((self.WIDTH, self.HEIGHT))
         pygame.display.set_caption("MonkeyType Game")
         self.clock = pygame.time.Clock()
