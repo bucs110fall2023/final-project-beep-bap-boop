@@ -5,8 +5,7 @@
 
 ## Team Members
 
-Coleman Tang
-Ryan Wong
+Coleman Tang, Ryan Wong
 
 ***
 
